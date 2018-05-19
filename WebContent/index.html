@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="UTF-8">
+<title>Birthdays</title>
+<script src="vendor/moment.js"></script>
+<script src="vendor/angular.js"></script>
+<script src="vendor/angular-route.js"></script>
+<script src="vendor/jquery-3.2.1.min.js"></script>
+
+<script src="app/app.module.js"></script>
+
+<script src="app/layout/shell.module.js"></script>
+<script src="app/layout/shell.ctrl.js"></script>
+
+<script src="app/birthdays/birthdays.module.js"></script>
+<script src="app/birthdays/birthdays.ctrl.js"></script>
+
+<script src="app/core/birthday.object.js"></script>
+
+<script src="app/data/data.module.js"></script>
+<script src="app/data/birthdays.svc.js"></script>
+
+<script src="app/component/component.module.js"></script>
+<script src="app/component/birthdayForm.view.js"></script>
+
+<script src="app/add/add.module.js"></script>
+<script src="app/add/add.ctrl.js"></script>
+
+<script src="app/edit/edit.module.js"></script>
+<script src="app/edit/edit.ctrl.js"></script>
+</head>
+<body>
+	<ng-include src="'app/layout/shell.html'"></ng-include>
+</body>
+</html>

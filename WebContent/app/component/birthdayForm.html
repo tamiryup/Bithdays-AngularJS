@@ -1,0 +1,20 @@
+<div>
+    <form>
+        name:
+        <input type="text" required ng-model="name">
+        <br> date:
+        <input type="date" required ng-model="date">
+        <br> greeting:
+        <input type="text" required ng-model="greeting">
+        <br> relationship:
+        <select ng-model="relationship" required>
+            <option>spouse</option>
+            <option>family</option>
+            <option>friend</option>
+            <option>co-worker</option>
+        </select>
+        <br>
+        <button ng-click="triggerEvent()">{{buttonTitle}}</button>
+        <button ng-click="back()">Back to List</button>
+    </form>
+</div>
